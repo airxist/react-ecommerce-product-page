@@ -21,9 +21,15 @@ function Nav() {
                 </div>
                 {
                     links.map(link => {
-                        return <li className='list-group-item border-0'><a href={ link } className='text-gray' style={{
-                            textDecoration: "none"
-                        }}>{ link }</a></li>
+                        return <li 
+                            className='list-group-item border-0 kmed'>
+                                <a href={ link } className='text-gray' 
+                                    style={{ textDecoration: "none" }}
+                                    onClick={ e => e.preventDefault() }
+                                >
+                                    { link }
+                                </a>
+                        </li>
                     })
                 }
             </ul>

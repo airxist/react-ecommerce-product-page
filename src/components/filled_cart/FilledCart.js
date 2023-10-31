@@ -7,7 +7,7 @@ function FilledCart() {
     
     return (
         <div className='filled-cart d-flex flex-column-reverse'>
-            <button className='btn bg-orange text-light w-100 mt-4' type='button'>
+            <button className='btn bg-orange text-light w-100 mt-4 kreg' type='button'>
                 checkout
             </button>
             {

@@ -13,9 +13,9 @@ function Product({ name, quantity, img, totalPrice }) {
         <div className='product d-flex align-items-center justify-content-between'>
             <div className='product-image border' style={{ backgroundImage: `url(${img})`, backgroundPosition: "center", backgroundSize: "cover"}}></div>
             <div className='product-detail'>
-                <p className='name m-0'>{ name }</p>
-                <p className='calculate m-0'>
-                    $125 x { quantity } <b>${ 125 * quantity }</b>
+                <p className='name m-0 kreg'>{ name }</p>
+                <p className='calculate m-0 kreg'>
+                    $125 x { quantity } <b className='kbold'>${ 125 * quantity }</b>
                 </p>
             </div>
             <div className='delete' onClick={clearSingleItem}>

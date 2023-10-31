@@ -10,7 +10,7 @@ function Showcart() {
     return (
         <div className={`show-item-cart position-absolute rounded-3 shadow-lg ${showCart ? "show p-3" : null}`}>
             <header className='show-head border-bottom border-secondary'>
-                <h5 className='show-head-title'>Cart</h5>
+                <small className='show-head-title kmed'>Cart</small>
             </header>
             { products.length < 1 ? <EmptyCart /> : <FilledCart />}
             

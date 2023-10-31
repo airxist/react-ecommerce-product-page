@@ -1,7 +1,17 @@
-/* @font-face {
-  font-family: ;
-  src: url();
-} */
+@font-face {
+  font-family: kbold;
+  src: url(./assets/fonts/KumbhSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: kmed;
+  src: url(./assets/fonts/KumbhSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: kreg;
+  src: url(./assets/fonts/KumbhSans-Regular.ttf);
+}
 
 :root {
   /* paint */
@@ -37,4 +47,17 @@ body {
 
 .text-gray {
   color: var(--dark-grayish-blue);
+}
+
+/* text font */
+.kbold {
+  font-family: kbold;
+}
+
+.kmed {
+  font-family: kmed;
+}
+
+.kreg {
+  font-family: kreg;
 }

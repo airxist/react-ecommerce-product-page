@@ -26,12 +26,12 @@ function Order() {
                 <span className='badge minus' onClick={decrease}>
                     <img src={ minus } alt='minus' />
                 </span>
-                <h4 className='quantity-digit'>{ total }</h4>
+                <h4 className='quantity-digit kbold'>{ total }</h4>
                 <span className='badge plus' onClick={increase}>
                     <img src={ plus } alt='minus' />
                 </span>
             </div>
-            <button className='add-to-cart p-2 btn d-flex align-items-center justify-content-center bg-orange w-100 text-light mt-3 mt-md-0' type='button'
+            <button className='add-to-cart kreg p-2 btn d-flex align-items-center justify-content-center bg-orange w-100 text-light mt-3 mt-md-0' type='button'
                 onClick={ addToCArt }
             >
                 <img src={ cart } alt='cart' className='me-3' />

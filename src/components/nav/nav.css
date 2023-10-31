@@ -27,7 +27,7 @@ nav {
     color: var(--black)
 }
 
-@media screen and (width > 1200px) {
+@media screen and (width > 768px) {
     nav {
         display: block;
         min-height: auto;

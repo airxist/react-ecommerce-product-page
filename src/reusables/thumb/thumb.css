@@ -2,6 +2,11 @@
     width: 22%;
     height: 80px;
     overflow: hidden;
+    cursor: pointer;
+}
+
+.thumb:hover {
+    opacity: .3;
 }
 
 .thumb.active {

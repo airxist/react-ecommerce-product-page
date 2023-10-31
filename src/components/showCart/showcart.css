@@ -13,7 +13,7 @@
 }
 
 
-@media screen and (width > 1200px) {
+@media screen and (width > 768px) {
     .show-item-cart {
         left: 50%;
         transform: translate(-50%);

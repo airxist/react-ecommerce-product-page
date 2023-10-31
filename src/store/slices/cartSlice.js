@@ -15,7 +15,11 @@ const cartSlice = createSlice({
             ++state.total;
         },
         decrement( state, action ) {
-            --state.total;
+            if( state.total <= 0 ) {
+                return;
+            } else {
+                --state.total;
+            }
         },
         addToCart( state, action ) {
             let newItem = action.payload;
@@ -40,6 +44,7 @@ const cartSlice = createSlice({
         },
         clearCart( state, action ) {
             state.items = state.items.filter(item => item.name !== action.payload);
+            state.quantity = 0;
         }
     }
 })

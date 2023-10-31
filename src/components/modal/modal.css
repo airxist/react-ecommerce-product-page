@@ -11,7 +11,7 @@
 }
 
 
-@media screen and (width > 1200px) {
+@media screen and (width > 768px) {
     .modal-board .pictogram {
         width: 35%;
         padding: 0 20px;

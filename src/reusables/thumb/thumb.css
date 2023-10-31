@@ -1,0 +1,17 @@
+.thumb {
+    width: 22%;
+    height: 80px;
+    overflow: hidden;
+}
+
+.thumb.active {
+    opacity: 0.5;
+    border: solid 2px var(--orange);
+}
+
+.thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}

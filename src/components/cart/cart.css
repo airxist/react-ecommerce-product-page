@@ -1,0 +1,16 @@
+.cart {
+    /* width: 10%; */
+}
+
+.cart-div img {
+    cursor: pointer;
+}
+
+.total-item {
+    background-color: var(--orange);
+    cursor: pointer;
+}
+
+.avatar {
+    cursor: pointer;
+}

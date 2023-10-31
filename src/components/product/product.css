@@ -1,0 +1,8 @@
+.product {
+    height: 50px;
+}
+
+.product-image {
+    width: 40px;
+    aspect-ratio: 1/1;
+}

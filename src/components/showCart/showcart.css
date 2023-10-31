@@ -1,0 +1,21 @@
+.show-item-cart {
+    top: 200%;
+    width: 0px;
+    right: -25px;
+    background-color: var(--white);
+    overflow: hidden;
+    transition: .3s;
+    z-index: 10;
+}
+
+.show {
+    width: 300px;
+}
+
+
+@media screen and (width > 1200px) {
+    .show-item-cart {
+        left: 50%;
+        transform: translate(-50%);
+    }
+}

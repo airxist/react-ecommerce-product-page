@@ -1,0 +1,46 @@
+.frame {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.control-btn {
+    /* display: none; */
+    background-color: var(--white);
+    width: 50px;
+    aspect-ratio: 1/1;
+}
+
+.closeModal {
+    transform: scale(1.25);
+}
+
+.pictogram .control-btn {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.control-btn:first-of-type {
+    left: 0;
+}
+
+.control-btn:last-of-type {
+    right: 0;
+}
+
+@media screen and (width > 1200px) {
+    .pictogram {
+        width: 50%;
+        padding: 0 75px;
+    }
+
+    .frame {
+        height: 350px;
+    }
+
+    .control-btn {
+        display: none !important;
+    }
+}

@@ -1,0 +1,43 @@
+nav {
+    width: 100% !important;
+    min-height: 100vh;
+    background-color: var(--black);
+    position: fixed;
+    top: 0;
+    left: -30px;
+    z-index: 15;
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.list-group {
+    height: 100vh !important;
+    background-color: var(--white);
+    width: 50%;
+}
+
+.list-group-item {
+    background-color: transparent;
+}
+
+.list-group-item a:hover {
+    color: var(--black)
+}
+
+@media screen and (width > 1200px) {
+    nav {
+        display: block;
+        min-height: auto;
+        width: auto;
+        position: unset;
+        background-color: transparent;
+    }
+
+    .list-group {
+        height: unset !important;
+        width: auto;
+    }
+}

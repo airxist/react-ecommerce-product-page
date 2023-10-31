@@ -1,0 +1,13 @@
+.badge {
+    cursor: pointer;
+}
+
+@media screen and (width > 1200px) {
+    .quantity {
+        width: 35%;
+    }
+
+    .add-to-cart {
+        width: 60% !important;
+    }
+}
